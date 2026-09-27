@@ -57,7 +57,10 @@ This project started as a freelance design and was rebuilt from scratch as a pix
 | Products | `/admin/products` |
 | Settings | `/admin/settings` |
 
-### Admin Dashboard
+### user Dashboard
+<!-- Update these names to match your admin pages -->
+| Page | Route |
+|---|---|
 | User-Dashboard | `/dashboard` |
 | Orders | `/dashboard/orders` |
 | Wallet | `/dashboard/wallet` |
