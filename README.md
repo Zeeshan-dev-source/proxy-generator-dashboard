@@ -41,18 +41,28 @@ This project started as a freelance design and was rebuilt from scratch as a pix
 | Page | Route |
 |---|---|
 | Home | `/` |
-| About | `/about` |
-| Pricing | `/pricing` |
-| Contact | `/contact` |
+|Sign Up Now | `/signup` |
+| Log In | `/login` |
+| FAQ | `/faq` |
+| Terms of Service | `/terms` |
+| Privacy Policy | `/privacy` |
 
 ### Admin Dashboard
 <!-- Update these names to match your admin pages -->
 | Page | Route |
 |---|---|
-| Dashboard | `/admin` |
+| Admin-Dashboard | `/admin` |
+| Orders | `/admin/orders` |
 | Users | `/admin/users` |
+| Products | `/admin/products` |
 | Settings | `/admin/settings` |
 
+### Admin Dashboard
+| User-Dashboard | `/dashboard` |
+| Orders | `/dashboard/orders` |
+| Wallet | `/dashboard/wallet` |
+| Generator | `/dashboard/generator` |
+| Support | `/dashboard/support` |
 ---
 
 ## 📁 Project Structure
@@ -114,7 +124,8 @@ The admin dashboard is available at [http://localhost:5173/admin](http://localho
 
 | Home | Admin Dashboard |
 |---|---|
-| ![Home](screenshots/home.png) | ![Admin](screenshots/admin-dashboard.png) ![Admin Users](screenshots/users-dashboard.png)|
+| ![Home](screenshots/home.png) | ![Admin](screenshots/admin-dashboard.png) !
+[Users-dashboard](screenshots/users-dashboard.png)|
 
 ---
 
@@ -122,7 +133,7 @@ The admin dashboard is available at [http://localhost:5173/admin](http://localho
 
 - Backend integration and real proxy generation
 - Authentication with protected admin routes
-- Dark mode
+- Dark mode & Light mode
 
 ---
 
