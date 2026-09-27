@@ -114,8 +114,8 @@ The admin dashboard is available at [http://localhost:5173/admin](http://localho
 
 | Home | Admin Dashboard |
 |---|---|
-| ![Home](screenshots/home.png) | ![Admin](screenshots/admin-dashboard.png) |
-| | ![Admin Users](screenshots/users-dashboard.png) |
+| ![Home](screenshots/home.png) | ![Admin](screenshots/admin-dashboard.png) ![Admin Users](screenshots/users-dashboard.png)|
+
 ---
 
 ## 🔮 Future Improvements
